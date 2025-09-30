@@ -18,3 +18,13 @@
   * You can set the enviroment variable: `export GRB_LICENSE_FILE=/PATH_TO_LICENSE_FILE/gurobi.lic`
     * e.g) `export GRB_LICENSE_FILE=~/Downloads/gurobi.lic`
   * We recommend adding this line to bashrc by: `echo 'export GRB_LICENSE_FILE=/PATH_TO_LICENSE_FILE/gurobi.lic' >> ~/.bashrc`  
+
+
+## Run Experiments
+* You can run experiment 2 with two scripts, both inside the /scripts directory.
+* run_oracle_and_heuristics_experiment2.py
+  * This runs the Oracle Baseline (B1 in the paper) and Baselines B2 and B3 (MILP hybrid, Closest Helper Heuristics).
+* run_ours_experiment2.py
+  * This runs Our decentralized MILP method.
+* You can tweak the experiment parameters such as number of helpers, number of existing tasks and etc.
+  * Modify `experiment_parameters.txt` file.  
